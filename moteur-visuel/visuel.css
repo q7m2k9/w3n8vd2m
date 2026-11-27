@@ -1,0 +1,127 @@
+
+@font-face{font-family:"VIS Serif";src:url("__POLICES__/InstrumentSerif-Regular.ttf");font-style:normal}
+@font-face{font-family:"VIS Serif";src:url("__POLICES__/InstrumentSerif-Italic.ttf");font-style:italic}
+@font-face{font-family:"VIS Inter";src:url("__POLICES__/Inter-Variable.ttf");font-weight:100 900}
+#ov{font-family:"VIS Inter",sans-serif;color:#1d1a16}
+#ov i,#ov em{font-family:"VIS Serif",serif;font-style:italic}
+#marque{left:0;top:298px;width:1080px;display:flex;justify-content:center;align-items:center;gap:22px}
+#marque::before,#marque::after{content:"";width:74px;height:2px;background:#a66932;opacity:.65}
+#marque .tx{font:700 25px "VIS Inter",sans-serif;letter-spacing:.42em;margin-right:-.2em;color:#4a3a2a}
+#traits{left:90px;top:346px;width:900px;height:5px;display:flex;gap:16px}
+#traits span{flex:1;background:rgba(166,105,50,.22);border-radius:4px;overflow:hidden;display:block}
+#traits span i{display:block;height:100%;width:0;background:#a66932}
+.vt{position:absolute;left:90px;top:388px;width:900px;font-family:"VIS Serif",serif;line-height:1}
+.vt .mq{overflow:hidden;padding:0 10px 6px 0}
+.vt .li{white-space:nowrap}
+.vt .a{font-size:104px;color:#1d1a16}
+.vt .b{font-size:112px;font-style:italic;color:#a66932;margin-top:-10px}
+.vt.c{text-align:center;top:420px}
+#vfond{left:0;top:0;width:1080px;height:1920px;background:#e8dfd0}
+.vpage{left:0;top:0;width:1080px;height:1920px;overflow:hidden;background:#f5f0e4;box-shadow:0 20px 60px rgba(80,55,30,.22)}
+.vpage .bg{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover}
+.vpage .an{position:absolute;opacity:0}
+.carte{left:90px;width:796px;height:180px;background:#fff;border-radius:30px;display:flex;align-items:center;gap:28px;padding:0 34px;box-shadow:0 16px 40px rgba(90,60,30,.14)}
+.carte b{display:block;font:750 38px "VIS Inter",sans-serif}
+.carte i{display:block;font-size:48px;color:#a66932;line-height:1.1}
+.carte em{margin-left:auto;font-size:76px;color:#d9c3a6}
+.ic{flex:none;width:88px;height:88px;border-radius:22px;background:#f2e0ca;display:flex;align-items:center;justify-content:center}
+.vpage .an.fil{left:166px;top:740px;width:4px;height:430px;background:#d4b089}
+.pt{position:absolute;left:157px;width:22px;height:22px;border-radius:50%;background:#a66932;opacity:0;z-index:2}
+.form{left:90px;width:796px;background:#fff;border-radius:30px;padding:26px 34px;box-shadow:0 16px 40px rgba(90,60,30,.14)}
+.champ{height:70px;border:3px solid #eee3d1;border-radius:18px;margin-bottom:14px;padding:0 24px;font:500 32px/64px "VIS Inter",sans-serif;color:#6b5a48}
+.btn{background:#a66932;color:#fff;border-radius:999px;font:750 36px/80px "VIS Inter",sans-serif;text-align:center}
+.btn.actif{background:#8a5526}
+.vpage .surt{left:0;width:1080px;top:668px;text-align:center;font:700 34px "VIS Inter",sans-serif;letter-spacing:.5em;text-transform:uppercase;color:#a66932}
+.gros{position:absolute;left:0;width:1080px;top:710px;text-align:center;font:italic 640px/1 "VIS Serif",serif;color:#a66932;opacity:0}
+.badge{left:90px;background:#f2e0ca;color:#7a4a1f;border-radius:999px;padding:16px 34px;font:700 30px "VIS Inter",sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.badge.plein{background:#a66932;color:#fff;left:320px}
+.etapes .carte,.carte .rond{flex:none}
+.rond{width:68px;height:68px;border-radius:50%;border:4px solid #e5d4ba;display:flex;align-items:center;justify-content:center}
+.rond .ck,.rond svg{display:block;width:68px;height:68px}
+.vpage .carte{height:140px}
+.vpage .carte:has(em){height:180px}
+.prix{left:90px;width:796px;height:220px;border-radius:30px;background:#fff;padding:34px 40px;box-shadow:0 16px 40px rgba(90,60,30,.14)}
+.prix small{display:block;font:700 28px "VIS Inter",sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#8d7b68}
+.prix.gris u{display:block;margin-top:46px;width:430px;height:34px;border-radius:12px;background:#e6ded1}
+.prix .barre{position:absolute;left:40px;top:138px;height:6px;max-width:500px;background:#1d1a16;border-radius:4px;width:0}
+.prix.fort{height:310px;border:4px solid #a66932}
+.prix.fort h4{margin:26px 0 0;font:400 86px/1 "VIS Serif",serif}
+.prix.fort h4 i{color:#a66932;display:block}
+.prix .ck{position:absolute;right:34px;top:30px}
+.fenetre{left:90px;width:796px;height:440px;background:#fff;border-radius:30px;overflow:hidden;box-shadow:0 16px 40px rgba(90,60,30,.16)}
+.barwin{height:52px;background:#f2e0ca;display:flex;gap:12px;align-items:center;padding-left:24px}
+.barwin s{width:18px;height:18px;border-radius:50%;background:#a66932;opacity:.55}
+.ecran{margin:24px 40px;height:190px;border-radius:20px;background:#f7f1e7;display:flex;align-items:center;justify-content:center}
+.piste{position:relative;margin:0 40px;height:110px;display:flex;align-items:center;overflow:hidden}
+.clip{flex:none;height:86px;border-radius:12px;background:#a66932;margin-right:8px}
+.clip.vide{background:repeating-linear-gradient(45deg,#e6ded1 0 10px,#f6f1e8 10px 20px)}
+.tete{position:absolute;top:0;width:6px;height:110px;background:#1d1a16;border-radius:4px}
+.ligne{left:90px;width:796px;height:84px;background:#fff;border-radius:24px;display:flex;align-items:center;gap:22px;padding:0 26px;box-shadow:0 10px 26px rgba(90,60,30,.12)}
+.ligne b{font:700 36px "VIS Inter",sans-serif}
+.graph{left:90px;width:796px;height:540px;background:#fff;border-radius:30px;padding:30px 40px;box-shadow:0 16px 40px rgba(90,60,30,.14)}
+.graph small{display:block;font:700 28px "VIS Inter",sans-serif;color:#7a4a1f;letter-spacing:.14em;text-transform:uppercase}
+.graph .axe{text-align:right;margin-top:18px}
+.barres{height:390px;margin-top:20px;display:flex;align-items:flex-end;gap:22px;border-bottom:4px solid #e5d4ba}
+.br{flex:1;height:0;border-radius:12px 12px 0 0;background:#e3cfb2}
+.br.top{background:#a66932}
+.av{flex:none;display:block;width:128px;height:128px;border-radius:50%;background-size:116%;background-position:center;border:3px solid #f2e0ca}
+.av.p{width:84px;height:84px}
+.msg{left:90px;width:796px;background:#fff;border-radius:34px;padding:32px;display:flex;gap:26px;align-items:center;box-shadow:0 16px 40px rgba(90,60,30,.15)}
+.msg small{font:500 27px "VIS Inter",sans-serif;color:#8d7b68}
+.msg small b{color:#1d1a16}
+.msg p{margin:8px 0 0;font:400 52px/1.12 "VIS Serif",serif}
+.msg p i{color:#a66932}
+.saisie{left:90px;width:796px;height:124px;background:#fff;border-radius:999px;display:flex;align-items:center;gap:22px;padding:0 34px 0 20px;box-shadow:0 14px 34px rgba(90,60,30,.15)}
+.saisie .tp{font:500 33px "VIS Inter",sans-serif;color:#8d7b68;white-space:pre}
+.saisie strong{margin-left:auto;font:750 32px "VIS Inter",sans-serif;color:#0097b2}
+.zone{left:190px;width:596px}
+.zone .btn{font-size:40px;line-height:104px;box-shadow:0 16px 36px rgba(166,105,50,.35)}
+.cur{position:absolute;left:0;top:0;opacity:0;z-index:3}
+.vsub{left:488px;white-space:nowrap;font:750 46px/1.3 "VIS Inter",sans-serif;letter-spacing:-.01em;color:#1d1a16;background:rgba(250,247,240,.94);border-radius:999px;padding:7px 32px;box-shadow:0 8px 22px rgba(0,0,0,.2)}
+.vsub.page{background:transparent;box-shadow:none}
+.vsub span{display:inline-block}
+.vsub span.acc{color:#a66932}
+#outro{left:0;top:0;width:1080px;height:1920px}
+#marque.sans::before,#marque.sans::after{display:none}
+.vsub{background:transparent;box-shadow:none}
+.post{left:90px;width:796px;height:400px;background:#fff;border-radius:30px;padding:30px 36px;box-shadow:0 16px 40px rgba(90,60,30,.14)}
+.tete-post{display:flex;align-items:center;gap:22px;font:750 34px "VIS Inter",sans-serif}
+.post u{display:block;height:20px;width:100%;border-radius:10px;background:#ece4d7;margin-top:24px}
+.post u.court{width:62%;margin-top:14px}
+.post .vignette{margin-top:24px;height:150px;border-radius:20px;background:#f7f1e7;display:flex;align-items:center;justify-content:center}
+.saisie .tp{font-size:44px;padding-left:28px}
+.poste{left:90px;width:796px;height:140px;background:#fff;border-radius:30px;padding:0 40px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 16px 40px rgba(90,60,30,.14)}
+.poste small{font:500 27px "VIS Inter",sans-serif;color:#8d7b68}
+.poste small b{color:#1d1a16}
+.poste p{margin:4px 0 0;font:800 44px "VIS Inter",sans-serif;color:#a66932}
+.fete{position:absolute;left:488px;top:1335px;opacity:0}
+.fete span{position:absolute;left:-220px;width:440px;top:-80px;text-align:center;font:italic 130px/1.2 "VIS Serif",serif;color:#a66932}
+.fete s{position:absolute;left:-9px;top:-9px;width:18px;height:18px;border-radius:50%;background:#a66932}
+.fete s:nth-child(even){background:#d9b98f;border-radius:4px}
+.rond-cloche{left:293px;width:390px;height:390px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 16px 40px rgba(90,60,30,.16)}
+.pastille{position:absolute;right:62px;top:56px;width:92px;height:92px;border-radius:50%;background:#a66932;color:#fff;text-align:center;font:800 46px/92px "VIS Inter",sans-serif}
+.vpage .carte.lien{height:190px;border:4px solid #a66932}
+.form.grand{padding:34px}
+.form.grand .champ{height:92px;line-height:86px;font-size:38px;margin-bottom:20px}
+.form.grand .btn{line-height:100px;font-size:42px}
+.file{left:90px;width:796px;height:108px;background:#fff;border-radius:28px;display:flex;align-items:center;gap:28px;padding:0 34px;box-shadow:0 12px 30px rgba(90,60,30,.12)}
+.file .num{width:62px;height:62px;border-radius:50%;background:#e6ded1}
+.file u{display:block;width:360px;height:22px;border-radius:11px;background:#e6ded1}
+.file.moi{border:4px solid #a66932}
+.file .num.toi{background:#a66932}
+.file b{font:800 44px "VIS Inter",sans-serif}
+.file strong{margin-left:auto;background:#a66932;color:#fff;border-radius:999px;padding:12px 28px;font:750 30px "VIS Inter",sans-serif}
+.fenetre.prod{height:600px;text-align:center}
+.fenetre.prod .ecran.haut{height:230px}
+.fenetre.prod b{display:block;font:750 42px "VIS Inter",sans-serif;margin-top:6px}
+.fenetre.prod i{display:block;font-size:56px;color:#a66932;margin-top:12px}
+.jauge{position:relative;margin:30px 60px 0;height:26px;border-radius:13px;background:#ece4d7;overflow:hidden}
+.jauge .barre{position:absolute;left:0;top:0;height:26px;background:#a66932;width:0}
+.tel{left:278px;width:420px;height:738px;border-radius:54px;border:12px solid #1d1a16;overflow:hidden;background:#fff;box-shadow:0 20px 50px rgba(60,40,20,.3)}
+.tel img{width:100%;height:100%;object-fit:cover}
+.lecture{position:absolute;left:30px;right:30px;bottom:24px;height:10px;border-radius:5px;background:rgba(29,26,22,.2)}
+.av-lec{display:block;height:10px;border-radius:5px;background:#a66932;width:0}
+.zone-fleche{left:358px}
+.finlien{left:0;top:0;width:1080px;height:1920px}
+.finlien .an{position:absolute;opacity:0}
+.finlien .zone{left:242px}

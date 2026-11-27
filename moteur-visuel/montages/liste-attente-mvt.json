@@ -1,0 +1,1539 @@
+{
+ "nom": "Style Visuel",
+ "duree": 45.1333,
+ "entreprise": "HAUTE VISIBILITÉ",
+ "traits": [
+  {
+   "t0": 13.0333,
+   "t1": 17.3333
+  },
+  {
+   "t0": 17.3333,
+   "t1": 24.4633
+  },
+  {
+   "t0": 33.5633,
+   "t1": 38.1033
+  }
+ ],
+ "sons": "apercu/sons",
+ "gains": {
+  "souffle": 2.851,
+  "riser": 3.4277,
+  "pop": 3.3884,
+  "cloche": 7.7625,
+  "carillon": 4.4157,
+  "woosh": 0.1778,
+  "ordinateur": 4.7863,
+  "on-continue": 1.2445,
+  "etincelles": 4.57,
+  "clic-souris": 0.49
+ },
+ "reperes": {
+  "souffle": {
+   "debut": 0.179,
+   "fin": 0.913,
+   "duree": 0.993
+  },
+  "riser": {
+   "debut": 0.11,
+   "fin": 0.307,
+   "duree": 0.47
+  },
+  "pop": {
+   "debut": 0.166,
+   "fin": 0.21,
+   "duree": 0.418
+  },
+  "cloche": {
+   "debut": 0.246,
+   "fin": 1.745,
+   "duree": 2.691
+  },
+  "carillon": {
+   "debut": 0.145,
+   "fin": 1.037,
+   "duree": 1.698
+  },
+  "woosh": {
+   "debut": 0.321,
+   "fin": 1.092,
+   "duree": 1.32
+  },
+  "ordinateur": {
+   "debut": 0.056,
+   "fin": 1.657,
+   "duree": 1.698
+  },
+  "on-continue": {
+   "debut": 0.09,
+   "fin": 4.07,
+   "duree": 4.31
+  },
+  "etincelles": {
+   "debut": 0.025,
+   "fin": 0.442,
+   "duree": 0.47
+  },
+  "clic-souris": {
+   "debut": 0.02,
+   "fin": 0.13,
+   "duree": 0.32
+  }
+ },
+ "sonsUtilises": [
+  "carillon",
+  "cloche",
+  "clic-souris"
+ ],
+ "sonsExtra": [
+  {
+   "t": 5.7,
+   "k": "ding"
+  },
+  {
+   "t": 43.783,
+   "k": "souris"
+  }
+ ],
+ "mise": {
+  "subY": 1435
+ },
+ "titres": [],
+ "pleins": [
+  {
+   "type": "commente",
+   "t0": 0.0,
+   "t1": 2.92,
+   "nom": "Tu as commenté MVT",
+   "l": [
+    "Tu as commenté",
+    "MVT ?"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tPost": 0.0,
+   "tSaisie": 1.05,
+   "tTap": 1.75
+  },
+  {
+   "type": "flux",
+   "t0": 2.92,
+   "t1": 6.6333,
+   "nom": "Ton montage automatisé, Yay !",
+   "l": [
+    "Ton montage",
+    "automatisé"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tYay": 5.66,
+   "items": [
+    {
+     "t": 3.2,
+     "ic": "video",
+     "nom": "Tu filmes",
+     "sous": "ta vidéo"
+    },
+    {
+     "t": 3.74,
+     "ic": "ciseaux",
+     "nom": "Le montage",
+     "sous": "automatisé"
+    },
+    {
+     "t": 4.46,
+     "ic": "envoi",
+     "nom": "Tu publies",
+     "sous": "ta vidéo prête"
+    }
+   ]
+  },
+  {
+   "type": "rappel",
+   "t0": 6.6333,
+   "t1": 9.7633,
+   "nom": "Pour ne rien manquer",
+   "l": [
+    "Pour ne rien",
+    "manquer"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tCloche": 7.3333,
+   "tLien": 8.9333
+  },
+  {
+   "type": "cadeaux",
+   "t0": 9.7633,
+   "t1": 13.0333,
+   "nom": "Tes 3 cadeaux exclusifs",
+   "l": [
+    "Tes 3 cadeaux",
+    "exclusifs"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tForm": 9.8833,
+   "tTap": 10.8833,
+   "tSortie": 11.1833,
+   "items": [
+    {
+     "t": 11.4333,
+     "sous": "un outil gratuit"
+    },
+    {
+     "t": 11.7833,
+     "sous": "l'accès en priorité"
+    },
+    {
+     "t": 12.1333,
+     "sous": "les coulisses"
+    }
+   ]
+  },
+  {
+   "type": "numero",
+   "t0": 13.0333,
+   "t1": 14.1833,
+   "nom": "Cadeau exclusif 1",
+   "l": null,
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "n": "1",
+   "sur": "Cadeau exclusif"
+  },
+  {
+   "type": "etapes",
+   "t0": 14.1833,
+   "t1": 17.3333,
+   "nom": "Un outil gratuit, étape par étape",
+   "l": [
+    "Un outil",
+    "gratuit"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "badge": "Étape par étape",
+   "tBadge": 16.2333,
+   "items": [
+    {
+     "t": 14.7833,
+     "nom": "importer ta vidéo"
+    },
+    {
+     "t": 15.2333,
+     "nom": "couper les silences"
+    },
+    {
+     "t": 15.7833,
+     "nom": "ajouter tes sous-titres"
+    },
+    {
+     "t": 16.4833,
+     "nom": "exporter et publier"
+    }
+   ]
+  },
+  {
+   "type": "numero",
+   "t0": 17.3333,
+   "t1": 18.5833,
+   "nom": "Cadeau exclusif 2",
+   "l": null,
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "n": "2",
+   "sur": "Cadeau exclusif"
+  },
+  {
+   "type": "priorite",
+   "t0": 18.5833,
+   "t1": 22.4633,
+   "nom": "Accès en priorité",
+   "l": [
+    "Accès",
+    "en priorité"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tMonte": 19.7833,
+   "tTurbo": 21.2333
+  },
+  {
+   "type": "prix",
+   "t0": 22.4633,
+   "t1": 24.4633,
+   "nom": "Un tarif préférentiel",
+   "l": [
+    "Montage",
+    "Vidéo Turbo"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tA": 22.6833,
+   "tB": 23.2333
+  },
+  {
+   "type": "produit",
+   "t0": 24.4633,
+   "t1": 26.2933,
+   "nom": "Un produit digital",
+   "l": [
+    "Un produit",
+    "digital"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tCree": 24.9333
+  },
+  {
+   "type": "montage",
+   "t0": 26.2933,
+   "t1": 29.1633,
+   "nom": "Automatiser ton processus",
+   "l": [
+    "Automatise",
+    "ton processus"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tCoupe": 27.0333,
+   "items": [
+    {
+     "t": 27.2333,
+     "nom": "Les coupes"
+    },
+    {
+     "t": 27.7333,
+     "nom": "Les sous-titres"
+    },
+    {
+     "t": 28.2333,
+     "nom": "Les zooms"
+    }
+   ]
+  },
+  {
+   "type": "resultat",
+   "t0": 29.1633,
+   "t1": 31.0633,
+   "nom": "Un résultat ultra pro",
+   "l": [
+    "Un résultat",
+    "ultra pro"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tDeb": 29.4833,
+   "tPro": 30.1833
+  },
+  {
+   "type": "apercu",
+   "t0": 31.0633,
+   "t1": 33.5633,
+   "nom": "Comme cette vidéo",
+   "l": [
+    "Comme",
+    "cette vidéo"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "image": "apercu/exemple-visuel.jpg"
+  },
+  {
+   "type": "numero",
+   "t0": 33.5633,
+   "t1": 34.9333,
+   "nom": "Cadeau exclusif 3",
+   "l": null,
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "n": "3",
+   "sur": "Cadeau exclusif"
+  },
+  {
+   "type": "coulisses",
+   "t0": 34.9333,
+   "t1": 38.1033,
+   "nom": "Les coulisses de la création",
+   "l": [
+    "Les coulisses",
+    "de la création"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tPrive": 37.2333,
+   "items": [
+    {
+     "t": 35.4333,
+     "ic": "etoile",
+     "nom": "Les idées",
+     "sous": "de la création"
+    },
+    {
+     "t": 36.0333,
+     "ic": "video",
+     "nom": "Le tournage",
+     "sous": "en coulisses"
+    },
+    {
+     "t": 36.6333,
+     "ic": "ciseaux",
+     "nom": "Le montage",
+     "sous": "Vidéo Turbo"
+    }
+   ]
+  },
+  {
+   "type": "clique",
+   "t0": 38.1033,
+   "t1": 39.7933,
+   "nom": "Clique ici",
+   "l": [
+    "Clique",
+    "ici"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "tFleche": 38.9333
+  },
+  {
+   "type": "infos",
+   "t0": 39.7933,
+   "t1": 42.7833,
+   "nom": "Rentre tes infos",
+   "l": [
+    "Rentre",
+    "tes infos"
+   ],
+   "fond": "apercu/Background%20Motion%20Design.png",
+   "final": true,
+   "tForm": 39.8833,
+   "tTap": 41.4833
+  }
+ ],
+ "sousTitres": [
+  {
+   "t0": 0,
+   "t1": 0.5,
+   "mots": [
+    {
+     "w": "Tu",
+     "s": 0.0,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "viens",
+     "s": 0.227,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "de",
+     "s": 0.453,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 0.5,
+   "t1": 1.74,
+   "mots": [
+    {
+     "w": "commenter",
+     "s": 0.68,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "MVT",
+     "s": 0.87,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 1.74,
+   "t1": 2.14,
+   "mots": [
+    {
+     "w": "sous",
+     "s": 1.76,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "l'une",
+     "s": 1.947,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "de",
+     "s": 2.133,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 2.14,
+   "t1": 2.92,
+   "mots": [
+    {
+     "w": "nos",
+     "s": 2.32,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "publications",
+     "s": 2.62,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 2.92,
+   "t1": 3.74,
+   "mots": [
+    {
+     "w": "pour",
+     "s": 3.1,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "que",
+     "s": 3.305,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "ton",
+     "s": 3.51,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "processus",
+     "s": 3.715,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 3.74,
+   "t1": 4.46,
+   "mots": [
+    {
+     "w": "de",
+     "s": 3.92,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "montage",
+     "s": 4.16,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "vidéo",
+     "s": 4.4,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 4.46,
+   "t1": 5.56,
+   "mots": [
+    {
+     "w": "soit",
+     "s": 4.64,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "automatisé",
+     "s": 5.07,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 6.6333,
+   "t1": 7.2733,
+   "mots": [
+    {
+     "w": "pour",
+     "s": 6.8133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "t'assurer",
+     "s": 7.0263,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "de",
+     "s": 7.2403,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 7.2733,
+   "t1": 8.2733,
+   "mots": [
+    {
+     "w": "ne",
+     "s": 7.4533,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "rien",
+     "s": 7.7203,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "manquer",
+     "s": 7.9863,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 8.2733,
+   "t1": 9.1533,
+   "mots": [
+    {
+     "w": "assure-toi",
+     "s": 8.4533,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "de",
+     "s": 8.7463,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "cliquer",
+     "s": 9.0403,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 9.1533,
+   "t1": 9.7663,
+   "mots": [
+    {
+     "w": "sur",
+     "s": 9.3333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "le",
+     "s": 9.4603,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "lien",
+     "s": 9.5863,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 9.7663,
+   "t1": 10.0333,
+   "mots": [
+    {
+     "w": "dès",
+     "s": 9.9133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "que",
+     "s": 10.0133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "tu",
+     "s": 10.1133,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 10.0333,
+   "t1": 10.8333,
+   "mots": [
+    {
+     "w": "rentres",
+     "s": 10.2133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "tes",
+     "s": 10.4333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "infos",
+     "s": 10.6533,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 10.8333,
+   "t1": 11.3333,
+   "mots": [
+    {
+     "w": "tu",
+     "s": 11.0133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "as",
+     "s": 11.1803,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "accès",
+     "s": 11.3463,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 11.3333,
+   "t1": 11.9933,
+   "mots": [
+    {
+     "w": "à",
+     "s": 11.5133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "trois",
+     "s": 11.8433,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 11.9933,
+   "t1": 13.0333,
+   "mots": [
+    {
+     "w": "cadeaux",
+     "s": 12.0433,
+     "acc": true,
+     "colle": false
+    },
+    {
+     "w": "exclusifs",
+     "s": 12.6133,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 13.0533,
+   "t1": 13.8933,
+   "mots": [
+    {
+     "w": "cadeau",
+     "s": 13.2333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "numéro",
+     "s": 13.4663,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "1",
+     "s": 13.7003,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 13.8933,
+   "t1": 14.7533,
+   "mots": [
+    {
+     "w": "un",
+     "s": 14.0733,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "outil",
+     "s": 14.3603,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "gratuit",
+     "s": 14.6463,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 14.7533,
+   "t1": 15.5733,
+   "mots": [
+    {
+     "w": "pour",
+     "s": 14.9333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "monter",
+     "s": 15.3433,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 15.5733,
+   "t1": 16.2333,
+   "mots": [
+    {
+     "w": "des",
+     "s": 15.7533,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "vidéos",
+     "s": 16.0833,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 16.2333,
+   "t1": 17.3333,
+   "mots": [
+    {
+     "w": "étape",
+     "s": 16.4133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "par",
+     "s": 16.7063,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "étape",
+     "s": 17.0003,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 17.3333,
+   "t1": 18.6333,
+   "mots": [
+    {
+     "w": "cadeau",
+     "s": 17.4133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "numéro",
+     "s": 17.8063,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "2",
+     "s": 18.2003,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 18.6333,
+   "t1": 19.5333,
+   "mots": [
+    {
+     "w": "liste",
+     "s": 18.8133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "d'attente",
+     "s": 19.1533,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 19.5333,
+   "t1": 21.0333,
+   "mots": [
+    {
+     "w": "accède",
+     "s": 19.7133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "en",
+     "s": 20.1603,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "priorité",
+     "s": 20.2433,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 21.0333,
+   "t1": 21.7533,
+   "mots": [
+    {
+     "w": "à",
+     "s": 21.0533,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "Montage",
+     "s": 21.4933,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 21.7533,
+   "t1": 22.4533,
+   "mots": [
+    {
+     "w": "Vidéo",
+     "s": 21.9333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "Turbo",
+     "s": 22.2833,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 22.4533,
+   "t1": 24.4663,
+   "mots": [
+    {
+     "w": "à",
+     "s": 22.6333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "un",
+     "s": 23.0783,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "tarif",
+     "s": 23.5233,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "préférentiel",
+     "s": 23.9683,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 24.4663,
+   "t1": 24.7733,
+   "mots": [
+    {
+     "w": "on",
+     "s": 24.5333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "est",
+     "s": 24.6383,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "en",
+     "s": 24.7433,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "train",
+     "s": 24.8483,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 24.7733,
+   "t1": 25.2533,
+   "mots": [
+    {
+     "w": "de",
+     "s": 24.9533,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "te",
+     "s": 25.1133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "créer",
+     "s": 25.2733,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 25.2533,
+   "t1": 26.2933,
+   "mots": [
+    {
+     "w": "un",
+     "s": 25.4333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "produit",
+     "s": 25.7803,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "digital",
+     "s": 26.1263,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 26.2933,
+   "t1": 27.5833,
+   "mots": [
+    {
+     "w": "pour",
+     "s": 26.4733,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "automatiser",
+     "s": 26.9133,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 27.5833,
+   "t1": 28.3733,
+   "mots": [
+    {
+     "w": "ton",
+     "s": 27.6533,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "processus",
+     "s": 27.8933,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 28.3733,
+   "t1": 29.2333,
+   "mots": [
+    {
+     "w": "de",
+     "s": 28.4133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "montage",
+     "s": 28.5733,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "vidéo",
+     "s": 28.8133,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 29.2333,
+   "t1": 29.5533,
+   "mots": [
+    {
+     "w": "et",
+     "s": 29.2333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "que",
+     "s": 29.4003,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "le",
+     "s": 29.5663,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 29.5533,
+   "t1": 30.1133,
+   "mots": [
+    {
+     "w": "résultat",
+     "s": 29.7333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "soit",
+     "s": 30.0133,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 30.1133,
+   "t1": 30.8533,
+   "mots": [
+    {
+     "w": "ultra",
+     "s": 30.2933,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "pro",
+     "s": 30.5433,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 31.0663,
+   "t1": 31.6133,
+   "mots": [
+    {
+     "w": "comme",
+     "s": 31.2333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "ce",
+     "s": 31.4203,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "que",
+     "s": 31.6063,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 31.6133,
+   "t1": 32.2733,
+   "mots": [
+    {
+     "w": "tu",
+     "s": 31.7933,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "es",
+     "s": 31.9033,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "en",
+     "s": 32.0133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "train",
+     "s": 32.1233,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "de",
+     "s": 32.2333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "regarder",
+     "s": 32.3433,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 32.2733,
+   "t1": 33.5663,
+   "mots": [
+    {
+     "w": "ici",
+     "s": 32.4533,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "d'ailleurs",
+     "s": 32.9833,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 33.5663,
+   "t1": 34.4133,
+   "mots": [
+    {
+     "w": "cadeau",
+     "s": 33.6933,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "numéro",
+     "s": 33.9533,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "3",
+     "s": 34.2133,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 34.4133,
+   "t1": 34.9533,
+   "mots": [
+    {
+     "w": "les",
+     "s": 34.5933,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "coulisses",
+     "s": 34.5033,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 34.9533,
+   "t1": 35.7333,
+   "mots": [
+    {
+     "w": "accède",
+     "s": 35.1333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "aux",
+     "s": 35.3933,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "coulisses",
+     "s": 35.6533,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 35.7333,
+   "t1": 36.5133,
+   "mots": [
+    {
+     "w": "de",
+     "s": 35.9133,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "la",
+     "s": 36.1733,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "création",
+     "s": 36.4333,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 36.5133,
+   "t1": 37.2933,
+   "mots": [
+    {
+     "w": "de",
+     "s": 36.6933,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "montage",
+     "s": 37.0833,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 37.2933,
+   "t1": 38.1003,
+   "mots": [
+    {
+     "w": "Vidéo",
+     "s": 37.4733,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "Turbo",
+     "s": 37.7933,
+     "acc": true,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 38.1533,
+   "t1": 38.9333,
+   "mots": [
+    {
+     "w": "sur",
+     "s": 38.3333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "ce",
+     "s": 38.6033,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 38.9333,
+   "t1": 39.7933,
+   "mots": [
+    {
+     "w": "clique",
+     "s": 39.1133,
+     "acc": true,
+     "colle": false
+    },
+    {
+     "w": "ici",
+     "s": 39.3833,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 39.7933,
+   "t1": 40.5733,
+   "mots": [
+    {
+     "w": "rentre",
+     "s": 39.9733,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "tes",
+     "s": 40.2333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "infos",
+     "s": 40.4933,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 40.5733,
+   "t1": 41.3533,
+   "mots": [
+    {
+     "w": "pour",
+     "s": 40.7533,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "bénéficier",
+     "s": 41.1433,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  },
+  {
+   "t0": 41.3533,
+   "t1": 41.9933,
+   "mots": [
+    {
+     "w": "de",
+     "s": 41.5333,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "tout",
+     "s": 41.6663,
+     "acc": false,
+     "colle": false
+    },
+    {
+     "w": "ça",
+     "s": 41.8003,
+     "acc": false,
+     "colle": false
+    }
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "n": 1,
+   "t0": 0,
+   "t1": 99,
+   "faces": [],
+   "y": 1435
+  }
+ ],
+ "avatar": "apercu/Photo%20de%20profil%20HV.png",
+ "outro": {
+  "src": "apercu/Outro%20Liste%20attente%20MVT.png",
+  "t0": 42.1333,
+  "fondu": 0.6,
+  "sonT": null,
+  "carillonT": 41.983,
+  "dur": 3.0,
+  "bouton": {
+   "t": 42.833,
+   "tTap": 43.783
+  }
+ },
+ "sortie": {
+  "dossier": "6. Publication",
+  "base": "Liste attente MVT visuel"
+ },
+ "filtres": []
+}

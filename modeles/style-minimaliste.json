@@ -1,0 +1,89 @@
+{
+  "nom": "Style Minimaliste",
+  "version": 3,
+  "variante": "minimaliste",
+  "description": "Style épuré pour entrevues et face caméra : petits sous-titres blancs en minuscules, et un seul mot clé à la fois en grand serif italique. Aucun titre en carte, aucune puce, aucun emoji. Seul bruitage : une Étincelle très courte quand le mot clé apparaît. Inspiré d'un Reel d'entrevue analysé le 2026-11-24 (inspiration seulement, rien n'est copié tel quel).",
+  "disponibilite": "MVT Pimpé (/mise-a-jour-pimpe)",
+  "format": {
+    "largeur": 1080,
+    "hauteur": 1920,
+    "fps": 30
+  },
+  "couleurs": {
+    "texte": "#ffffff",
+    "accent": "aucun : le style reste tout blanc",
+    "notes": "Palette HV par défaut. Le texte est blanc; la cliente change ses polices dans /brandkit (palette.py n'a presque rien à remplacer ici)."
+  },
+  "polices": {
+    "sousTitres": {
+      "famille": "Poppins",
+      "graisse": 400,
+      "taille_px": 40,
+      "casse": "minuscules",
+      "note": "Remplacée par la police Sous-titres du Brand Kit de la cliente quand elle existe."
+    },
+    "motCle": {
+      "famille": "Playfair Display",
+      "style": "italique",
+      "graisse": 500,
+      "taille": "2,5 fois les sous-titres (environ 100 px)",
+      "casse": "telle quelle",
+      "italique": "Vraie police italique intégrée : polices/PlayfairDisplay-Italic.ttf (Google Fonts, licence libre). Option : D.style.italique = false pour un mot clé droit. Si la cliente choisit une autre police sans italique dans /brandkit, Erika la garde en italique si elle existe, sinon propose Playfair Display Italic ou la version droite.",
+      "note": "Remplacée par la police Titre Ligne 1 du Brand Kit quand elle existe"
+    }
+  },
+  "sousTitres": {
+    "mots": "2 à 3 mots par bloc, sur une seule ligne, 24 caractères au maximum.",
+    "apparition": "Le bloc apparaît d'un coup, sans pop ni contour. Fondu de 0,06 s.",
+    "ombre": "Très douce (aucun contour) : 0 2px 12px à 35 %.",
+    "emplacement": "Centré, à gauche de 82 % de la largeur (boutons Facebook). Hauteur du centre entre 52 % et 68 % de la hauteur, sous le menton, tant que le fond est assez foncé pour le texte blanc. Sinon, juste au-dessus de la tête (le plus bas possible sans toucher les cheveux, jamais sous le bloc nom/profil à 217 px), à la même hauteur pour toute la prise. Jamais sur un visage ni dans les 22 % du bas.",
+    "continuite": "Un bloc reste affiché jusqu'au suivant quand l'écart est de moins de 0,45 s. Un bloc ne traverse jamais une coupe.",
+    "remplacements": "« Faque » et « Fait que » s'écrivent toujours « Donc ».",
+    "censure": "Mots vulgaires avec un astérisque à la place d'une lettre. La voix reste intacte.",
+    "studioHV": "« studio » en minuscule et « HV » en majuscules, tout en blanc."
+  },
+  "motCle": {
+    "frequence": "Environ 1 mot clé toutes les 8 à 10 secondes (8 sur 77 s dans l'inspiration). Jamais deux de suite.",
+    "choix": "Le mot qui porte l'idée (nom ou verbe fort), jamais un mot de liaison.",
+    "mise_en_page": "Le bloc se découpe en trois lignes centrées : petits mots avant (sous-titre), MOT CLÉ en grand serif italique, petits mots après. Exemple : « la place des » / influenceurs.",
+    "animation": "Fondu de 0,3 s, léger grossissement de 94 à 100 % (0,45 s) puis lente poussée jusqu'à 103,5 % pendant l'affichage. Aucun rebond, aucun tremblement.",
+    "emplacement": "Même hauteur que les sous-titres, mais si le visage est au centre du cadre, le bloc monte au-dessus de la tête (10 à 15 % de la hauteur). Le visage prime toujours.",
+    "couleur": "Selon le fond (règle relevée sur le Reel d'inspiration) : blanc quand le mot tombe sur un fond foncé (boiserie, vêtement foncé), turquoise #0097b2 (brun dans le Reel) quand il tombe sur un fond clair (mur blanc, haut blanc). La page mesure la luminosité sous le mot (champ `couleur` du mot ; turquoise si la luminosité est de 120 ou plus sur 255). Les petits mots restent blancs : on choisit leur emplacement sur un fond assez foncé.",
+    "zoom_video": "À l'apparition de chaque mot clé : zoom de la vidéo très doux, 4 % en 1,2 s (courbe smootherstep), qui reste jusqu'au changement de prise. Rien ne bouge entre deux mots clés.",
+    "son": "Étincelles (vrai son d'Ingrid, `4. Ressources/Etincelles.MP3`, étincelle haute tension / grésillement statique, très court) à -24 dBFS, calé sur l'apparition du mot clé. Identifié par Ingrid le 2026-11-24 (pas Bref).",
+    "sons_alternatifs": "Etincelles (par défaut). Alternatives créées par Erika dans `4. Ressources/` : Arc electrique, Court-circuit, Etincelle haute tension, Gresillement statique (à valider à l'oreille)."
+  },
+  "rythme": {
+    "cadrages": "Alternance plan moyen, plan large et gros plan d'illustration (mains, jambes, objets) quand la cliente a ces plans; un changement de cadrage environ toutes les 6 secondes.",
+    "silences": "La voix reste naturelle et continue : on ne coupe que les silences de plus de 0,3 s et les prises ratées.",
+    "zoom": "Seulement le zoom très doux des mots clés (4 %, 1,2 s); aucun autre zoom."
+  },
+  "elementsAbsents": [
+    "titre en carte",
+    "puces",
+    "cartes de section",
+    "cartes info",
+    "emoji",
+    "autocollants",
+    "Motion plein écran",
+    "Outro animée sauf demande"
+  ],
+  "outro": "Outro `4. Ressources/Outro.png` en fondu enchaîné de 3 s à la fin, comme tous les styles (règle du CLAUDE.md).",
+  "bruitages": {
+    "regle": "Aucun effet sonore pendant la vidéo, sauf : une Étincelle (grésillement très court) à l'apparition de chaque mot clé, et le Carillon doux de l'Outro. Sur demande d'Ingrid pour une vidéo précise, un son peut être ajouté à un moment (ex. Cloche sur un claquement de doigts).",
+    "exception_creation": "Si un son manque, Ingrid autorise Erika à le créer et à l'ajouter en MP3 dans `4. Ressources/` sous un nom clair. Pour ce style, aucun n'est nécessaire."
+  },
+  "audio": {
+    "voix": "Naturelle (aucune compression ni normalisation).",
+    "musique": "-28 dB si la cliente en a une dans `4. Ressources/`.",
+    "niveaux_crete_dbfs": {
+      "etincelles": -24,
+      "carillon": -24,
+      "cloche": -20
+    }
+  },
+  "gele": "Comme le Style HV : une fois validé, les valeurs ne changent pas d'une vidéo à l'autre sans demande écrite de la cliente.",
+  "interface": "Même page d'aperçu que le Style HV (moteur `apercu-template.html`, variante `minimaliste`). Export identique : `exporter.py`, seulement sur demande de la cliente.",
+  "marque_de_la_cliente": "Les couleurs et les polices viennent du Brand Kit de la cliente (`1. BrandKit/brandkit.json`) : sous-titres = police Sous-titres, mot clé = police Titre Ligne 1, mot clé sur fond clair = couleur d'accent du Brand Kit (turquoise HV par défaut). Si le Brand Kit n'existe pas, Erika le demande avant le storyboard (voir `montage-commun.md`).",
+  "version_notes": "v2 : couleur du mot clé selon le fond, zoom doux, Etincelles. v3 : sons alternatifs, Brand Kit obligatoire pour les couleurs et polices."
+}

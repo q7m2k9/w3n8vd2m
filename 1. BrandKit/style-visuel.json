@@ -1,0 +1,94 @@
+{
+  "nom": "Style Visuel",
+  "version": 2,
+  "statut": "validé : vidéo V1 exportée à la demande d'Ingrid le 2026-11-25",
+  "base": "minimaliste",
+  "moteurPropre": {
+    "generer": "python \".claude/studio/styles/visuel/genere.py\" \".claude/studio/styles/visuel/montages/<video>.json\"",
+    "dossier": ".claude/studio/styles/visuel",
+    "dessins": "bloc-visuel.js",
+    "habillage": "visuel.css",
+    "exemple": "montages/chronologie_liste-attente-mvt.py (écrit montages/liste-attente-mvt.json)",
+    "storyboard": "storyboard.py (liste des plans à adapter pour chaque vidéo)",
+    "export": "exporter.py officiel, avec --voix et --volume, seulement sur demande"
+  },
+  "preparation": "vidéo de base coupée (silences, meilleure prise, cris de joie gardés), puis voix égalisée avec egaliser_voix.py : .claude/studio/apercu/<nom>_base.mp4",
+  "couleurs": {
+    "source": "palette HV choisie le 2026-11-25 (aucun brandkit.json)",
+    "accent": "#a66932",
+    "sable": "#f2e0ca",
+    "creme": "#f5f0e4",
+    "texte": "#1d1a16",
+    "lien": "#0097b2"
+  },
+  "fond": "toujours 4. Ressources/Background Motion Design.png s'il existe; sinon dégradé blanc vers beige pâle",
+  "polices": {
+    "titres": "Instrument Serif, ligne 1 droite noire, ligne 2 italique brun",
+    "textes": "Inter"
+  },
+  "entete": {
+    "texte": "HAUTE VISIBILITÉ (nom de l'entreprise)",
+    "regle": "traits de chaque côté du nom SEULEMENT quand les traits de progression ne sont pas affichés; jamais les deux ensemble",
+    "traitsProgression": "un par point annoncé (ici 3 cadeaux), sous le nom, remplis à mesure"
+  },
+  "pages": [
+    "publication et commentaire",
+    "flux d'étapes",
+    "cloche de notification et lien",
+    "formulaire puis cadeaux (un à la fois)",
+    "grand chiffre",
+    "étapes cochées",
+    "file d'attente prioritaire",
+    "comparaison de tarif sans prix inventé",
+    "produit en création",
+    "montage qui se fait",
+    "résultats en barres",
+    "téléphone qui montre le style",
+    "coulisses",
+    "lien et grande flèche",
+    "formulaire Prénom, Nom de famille, Courriel, Envoyer (quand la cliente dit « rentre tes infos »)",
+    "Outro avec bouton « Clique sur le lien », souris et Clic de souris"
+  ],
+  "animations": "montée de bas en haut, apparition en cascade, glissement de page de 0,35 s, courtes pages de 1 à 3,5 s qui respirent",
+  "sousTitres": {
+    "mots": "2 à 3 par bloc",
+    "hauteur": 1435,
+    "apparition": "chaque mot s'allume quand il est dit",
+    "motsImportants": "brun",
+    "surPage": "texte seul"
+  },
+  "bruitages": {
+    "regle": "aucun son sur les animations",
+    "exceptions": "Cloche sur un cri de joie dit en vidéo (« Yay ! »), Clic de souris quand le curseur clique à la fin",
+    "outro": "Carillon doux"
+  },
+  "musique": "aucune pour l'instant",
+  "photoProfil": "4. Ressources/Photo de profil HV.png",
+  "discretion": "aucun texte ni signature de l'outil, export sans trace (exporter.py)",
+  "regleVideo": "100 % visuel : chaque plan est une « page visuelle »; la vidéo filmée n'apparaît jamais, seules les voix sont gardées",
+  "hauteurTexte": {
+    "nomEntreprise_px": 312,
+    "plusHaut_px": 295,
+    "sousTitres_px": 1435,
+    "regle": "rien d'écrit plus haut que 295 px ni plus bas que les sous-titres (nouvelle zone sûre à venir d'Ingrid)"
+  },
+  "coupes": "ne JAMAIS couper un cri de joie ou une réaction dite ensemble (« Yay ! ») : le garder au complet",
+  "commande": "monte ma vidéo selon le Style Visuel",
+  "modeEmploi": "mode-emploi.md",
+  "volumes": {
+    "voix": 100,
+    "sons": 100
+  },
+  "filtre": "Naturel (les filtres de couleur n'agissent pas sur les pages visuelles)",
+  "niveauxSons_crete_dBFS": {
+    "cloche": -19.6,
+    "carillon": -24.1,
+    "clicDeSouris": -20.4
+  },
+  "reference": {
+    "video": "6. Publication/Liste attente MVT visuel_V1.mp4",
+    "apercu": ".claude/studio/apercu-motion_Liste attente MVT visuel.html",
+    "storyboard": "3. Storyboard/Liste attente MVT visuel_storyboard_V2.pdf",
+    "chronologie": "montages/liste-attente-mvt.json"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "nom": "Style Bold",
+  "version": 1,
+  "statut": "valide par Ingrid le 2026-11-25",
+  "base": "minimaliste",
+  "cree": "2026-11-25",
+  "description": "Petits mots blancs en minuscules et un seul mot cle par idee en tres grand, MAJUSCULES, couleur du brand. Zooms tres doux, sons discrets, puces a opacite reduite, motion plein ecran et carte courbe. Inspire (sans copie) d'un Reel de sous-titres a mot cle en grand.",
+  "format": {
+    "largeur": 1080,
+    "hauteur": 1920,
+    "fps": 30
+  },
+  "couleurs": {
+    "source": "palette HV (aucun Brand Kit enregistre au 2026-11-25)",
+    "motCle": "#29bfd4",
+    "petitsMots": "#ffffff",
+    "puce": "#f5f0e4 a 70 % d'opacite, texte #a66932",
+    "plein": "#f5f0e4 / #a66932"
+  },
+  "polices": {
+    "petitsMots": {
+      "famille": "Poppins",
+      "graisse": 600,
+      "taille_px": 40,
+      "casse": "minuscules"
+    },
+    "motCle": {
+      "famille": "Poppins",
+      "graisse": 800,
+      "taille": "3 fois les petits mots (environ 120 px, reduit automatiquement pour tenir dans 760 px)",
+      "casse": "MAJUSCULES",
+      "couleur": "#29bfd4"
+    }
+  },
+  "sousTitres": {
+    "mots": "2 a 3 mots par bloc",
+    "hauteur": "sous le menton (centre entre 52 % et 72 % de la hauteur), sinon au-dessus de la tete (jamais plus haut que 395 px), constante pendant un plan",
+    "zoneSure": "a gauche de 82 % de la largeur, jamais dans les 22 % du bas, jamais sur un visage"
+  },
+  "motCle": {
+    "frequence": "un par idee, au moins 3 s d'ecart",
+    "animation": "fondu 0,3 s + leger grossissement (moteur minimaliste)",
+    "motsDuMontage": [
+      "MVT",
+      "AUTOMATISE",
+      "CADEAUX",
+      "PRIORITE",
+      "PRO",
+      "COULISSES",
+      "CLIQUE"
+    ]
+  },
+  "rythme": {
+    "zooms": "4 % en 1,2 s (smootherstep) sur MVT, CADEAUX, PRIORITE et CLIQUE (PRO retire : son plan se termine trop vite), rien ne bouge entre deux zooms",
+    "silences": "coupes au-dessus de 0,15 s"
+  },
+  "elements": [
+    "puces a 70 % d'opacite (dont Clique ici)",
+    "Motion plein ecran avec cercles et pastille",
+    "carte courbe Resultat pro",
+    "Outro"
+  ],
+  "elementsAbsents": [
+    "titre en carte",
+    "emoji",
+    "carte telephone",
+    "carte a cocher"
+  ],
+  "bruitages": {
+    "souffle": "0:00",
+    "pop": "tres doux sur chaque mot cle sauf PRO",
+    "pleinEcran": "Woosh puis Carillon",
+    "courbe": "Cloche",
+    "outro": "Carillon",
+    "regle": "vrais sons de 4. Ressources, toujours sous la voix, voix naturelle"
+  },
+  "css": "\n.mini .sub{font:600 40px/50px \"HV Poppins\",sans-serif;text-transform:lowercase;text-shadow:0 2px 14px rgba(0,0,0,.55)}\n.mini .sub .kw{font:800 3em/1.0 \"HV Poppins\",sans-serif;font-style:normal;text-transform:uppercase;letter-spacing:.005em;margin:.02em 0;color:#29bfd4;text-shadow:0 4px 18px rgba(0,0,0,.6)}\n.mini .sub .w.acc{color:#29bfd4!important}\n.chip{background:rgba(245,240,228,.70)!important;box-shadow:0 4px 14px rgba(0,0,0,.14)!important}\n",
+  "discretion": "aucun texte ni signature de l'outil dans la video, export sans trace (exporter.py)"
+}
